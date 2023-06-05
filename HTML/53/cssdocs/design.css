@@ -1,0 +1,38 @@
+h1 {
+    color: cadetblue;
+    font-weight: bold;
+    background-color: azure;
+    border-style: double;
+    border-color: cadetblue;
+    border-radius: 16px;
+    text-align: center;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 45px;
+}
+
+html {
+    background-color: azure;
+}
+
+img {
+    border-radius: 16px;
+    border-color: cadetblue;
+    border-width: 3px;
+
+}
+
+h2 {
+    color: cadetblue;
+    font-family: cursive;
+    font-size: 32px;
+    text-align: center;
+
+}
+
+a {
+    font-size: 20px;
+    color: darkcyan;
+    border-color: cadetblue;
+    border-width: 2px;
+
+}
