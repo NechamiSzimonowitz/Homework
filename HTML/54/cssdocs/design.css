@@ -8,10 +8,15 @@ h1 {
     text-align: center;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     font-size: 45px;
+    padding-bottom: .5px;
 }
 
 html {
     background-color: azure;
+    max-width: 80%;
+    margin-left: 10%;
+    margin-right: 10;
+
 }
 
 img {
@@ -44,4 +49,25 @@ a:hover {
 
 a:focus {
     color: black;
+}
+
+.heading {
+    text-decoration: underline;
+    text-decoration-color: darkcyan;
+    text-shadow: 3px 3px 3px rgb(155, 175, 200);
+}
+
+.allergyinfo {
+    background-color: gray;
+    padding: 10px 10px 10px 10px;
+}
+
+ul {
+    display: block;
+    list-style-image: url(images/bullet.jpg)
+}
+
+#topline {
+    letter-spacing: 1px;
+
 }
