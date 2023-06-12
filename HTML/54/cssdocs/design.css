@@ -11,11 +11,16 @@ h1 {
     padding-bottom: .5px;
 }
 
+body {
+    background-color: lightcyan;
+    padding: 3px 10px;
+}
+
 html {
-    background-color: azure;
+    background-color: black;
     max-width: 80%;
     margin-left: 10%;
-    margin-right: 10;
+    margin-right: 10%;
 
 }
 
@@ -53,6 +58,7 @@ a:focus {
 
 .heading {
     text-decoration: underline;
+    text-align: center;
     text-decoration-color: darkcyan;
     text-shadow: 3px 3px 3px rgb(155, 175, 200);
 }
@@ -62,12 +68,25 @@ a:focus {
     padding: 10px 10px 10px 10px;
 }
 
-ul {
-    display: block;
-    list-style-image: url(images/bullet.jpg)
-}
+
 
 #topline {
     letter-spacing: 1px;
+}
+
+#Menubox ul {
+    border-style: dotted;
+    border-bottom-style: none;
+    border-top-style: none;
+    border-width: 5px;
+    text-align: center;
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0 auto;
+    max-width: 200px;
+    list-style-type: none;
+    text-align: center;
+    padding: 0;
+    text-size-adjust: ;
 
 }

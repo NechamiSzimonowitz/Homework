@@ -33,3 +33,21 @@ a {
     border-width: 2px;
 
 }
+
+#aboutUs {
+    text-align: center;
+    border-style: ridge;
+    border-width: 2px;
+    border-color: cadetblue;
+    border-radius: 6px;
+    padding: 3px 3px 3px 3px;
+}
+
+#siteTitle {
+    border-style: double;
+    padding-right: 3px;
+    padding-left: 3px;
+    border-color: darkcyan;
+    border-width: 3px;
+
+}
