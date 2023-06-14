@@ -39,7 +39,8 @@ a {
     border-style: ridge;
     border-width: 2px;
     border-color: cadetblue;
-    border-radius: 6px;
+    border-left: none;
+    border-right: none;
     padding: 3px 3px 3px 3px;
 }
 
