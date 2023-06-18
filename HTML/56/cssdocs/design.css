@@ -1,0 +1,92 @@
+h1 {
+    color: cadetblue;
+    font-weight: bold;
+    background-color: azure;
+    border-style: double;
+    border-color: cadetblue;
+    border-radius: 16px;
+    text-align: center;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 45px;
+    padding-bottom: .5px;
+}
+
+body {
+    background-color: lightcyan;
+    padding: 3px 10px;
+}
+
+html {
+    background-color: black;
+    max-width: 80%;
+    margin-left: 10%;
+    margin-right: 10%;
+
+}
+
+img {
+    border-radius: 16px;
+    border-color: cadetblue;
+    border-width: 3px;
+
+}
+
+h2 {
+    color: cadetblue;
+    font-family: cursive;
+    font-size: 32px;
+    text-align: center;
+
+}
+
+a {
+    font-size: 20px;
+    color: darkcyan;
+    border-color: cadetblue;
+    border-width: 2px;
+    text-decoration: none;
+
+}
+
+a:hover {
+    color: blue;
+}
+
+a:focus {
+    color: black;
+}
+
+.heading {
+    text-decoration: underline;
+    text-align: center;
+    text-decoration-color: rgba(0, 139, 139, .25);
+    text-shadow: 3px 3px 3px rgb(155, 175, 200);
+}
+
+.allergyinfo {
+    background-color: gray;
+    padding: 10px 10px 10px 10px;
+}
+
+
+
+#topline {
+    letter-spacing: 1px;
+}
+
+#Menubox ul {
+    border-style: dotted;
+    border-bottom-style: none;
+    border-top-style: none;
+    border-width: 5px;
+    text-align: center;
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0 auto;
+    max-width: 200px;
+    list-style-type: none;
+    text-align: center;
+    padding: 0;
+    text-size-adjust: ;
+
+}
