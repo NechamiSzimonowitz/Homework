@@ -21,6 +21,7 @@ html {
     max-width: 80%;
     margin-left: 10%;
     margin-right: 10%;
+    margin-top: 3%;
 
 }
 
@@ -59,9 +60,22 @@ a:focus {
 
 .heading {
     text-decoration: underline;
-    text-align: center;
     text-decoration-color: rgba(0, 139, 139, .25);
     text-shadow: 3px 3px 3px rgb(155, 175, 200);
+    font-family: 'Roboto Condensed', sans-serif;
+    font-size: 42px;
+    background-color: white;
+    position: fixed;
+    right: 0%;
+    left: 0%;
+    top: 0%;
+    text-align: center;
+    display: block;
+    width: 100%;
+    margin: 0 auto;
+    z-index: 1;
+
+
 }
 
 .allergyinfo {
@@ -90,4 +104,13 @@ a:focus {
     padding: 0;
     text-size-adjust: ;
 
+}
+
+#menu {
+    text-align: center;
+}
+
+div>h3 {
+    font-style: italic;
+    font-size: 25px;
 }

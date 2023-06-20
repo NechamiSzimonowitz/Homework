@@ -20,7 +20,11 @@ h5 {
 }
 
 
+h4 {
+    font-size: 20px;
+    color: black;
 
+}
 
 a {
     font-size: 20px;
@@ -47,11 +51,14 @@ a {
     border-color: darkcyan;
     border-width: 3px;
     max-height: 100px;
-    background: radial-gradient(circle, rgba(2, 0, 36, .5) 0%, rgba(94, 206, 214, .5) 0%, rgba(222, 241, 244, .5) 49%, rgba(113, 209, 227, .5) 100%);
+    background: radial-gradient(circle, rgba(2, 0, 36, 1) 0%, rgba(184, 219, 222, 1) 0%, rgba(222, 241, 244, 1) 49%, rgba(208, 233, 237, 1) 100%);
 }
 
-h4:not(.someInfo) {
+#signature {
     font-style: italic;
-    font-size: 20px;
-    color: black;
+    text-align: right;
+    padding-right: 15px;
+    position: absolute;
+    bottom: -110px;
+    right: 130px;
 }
