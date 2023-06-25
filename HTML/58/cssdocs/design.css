@@ -1,0 +1,142 @@
+h1 {
+    color: cadetblue;
+    font-weight: bold;
+    background-color: azure;
+    border-style: double;
+    border-color: cadetblue;
+    border-radius: 16px;
+    text-align: center;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 45px;
+    padding-bottom: .5px;
+}
+
+body {
+    background-color: lightcyan;
+    padding: 3px 10px;
+}
+
+html {
+    background-color: black;
+    max-width: 80%;
+    margin-left: 10%;
+    margin-right: 10%;
+    margin-top: 3%;
+
+}
+
+img {
+    border-radius: 16px;
+    border-color: cadetblue;
+    border-width: 3px;
+
+
+}
+
+h2 {
+    color: cadetblue;
+    font-family: cursive;
+    font-size: 32px;
+    text-align: center;
+
+}
+
+a {
+    font-size: 20px;
+    color: darkcyan;
+    border-color: cadetblue;
+    border-width: 2px;
+    text-decoration: none;
+
+}
+
+a:hover {
+    color: blue;
+}
+
+a:focus {
+    color: black;
+}
+
+.heading {
+    text-decoration: underline;
+    text-decoration-color: rgba(0, 139, 139, .25);
+    text-shadow: 3px 3px 3px rgb(155, 175, 200);
+    font-family: 'Roboto Condensed', sans-serif;
+    font-size: 42px;
+    background-color: white;
+    position: fixed;
+    right: 0%;
+    left: 0%;
+    top: 0%;
+    text-align: center;
+    display: block;
+    width: 100%;
+    margin: 0 auto;
+    z-index: 1;
+
+
+}
+
+#topline {
+    letter-spacing: 1px;
+}
+
+#Menubox ul {
+    border-style: dotted;
+    border-bottom-style: none;
+    border-top-style: none;
+    border-width: 5px;
+    text-align: center;
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0 auto;
+    max-width: 200px;
+    list-style-type: none;
+    text-align: center;
+    padding: 0;
+    text-size-adjust: ;
+
+}
+
+#menu {
+    text-align: center;
+}
+
+div>h3 {
+    font-style: italic;
+    font-size: 25px;
+}
+
+table {
+    padding: 100px;
+    text-align: left;
+    border-collapse: collapse;
+    margin: 50px;
+}
+
+table td {
+    border-width: 1px;
+    border-style: solid;
+    border-color: black;
+    padding: 7px;
+}
+
+thead {
+    text-align: center;
+}
+
+tbody tr:nth-child(2n) {
+    background-color: darkcyan;
+}
+
+caption {
+    padding-bottom: 10px;
+    font-style: italic;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+tr :last-child {
+    font-style: italic;
+}

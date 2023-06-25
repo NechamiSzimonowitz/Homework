@@ -1,0 +1,73 @@
+h2 {
+    text-align: center;
+    line-height: .5;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+img {
+    border-radius: 10px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 400px;
+    height: auto;
+    filter: brightness(80%) saturate(80%);
+}
+
+h5 {
+    font-size: 25px;
+    color: black;
+}
+
+
+h4 {
+    font-size: 20px;
+    color: black;
+
+}
+
+a {
+    font-size: 20px;
+    color: darkcyan;
+    border-color: cadetblue;
+    border-width: 2px;
+
+}
+
+#aboutUs {
+    text-align: center;
+    border-style: ridge;
+    border-width: 2px;
+    border-color: cadetblue;
+    border-left: none;
+    border-right: none;
+    padding: 3px 3px 3px 3px;
+}
+
+#siteTitle {
+    border-style: double;
+    padding-right: 3px;
+    padding-left: 3px;
+    border-color: darkcyan;
+    border-width: 3px;
+    max-height: 100px;
+    background: radial-gradient(circle, rgba(2, 0, 36, 1) 0%, rgba(184, 219, 222, 1) 0%, rgba(222, 241, 244, 1) 49%, rgba(208, 233, 237, 1) 100%);
+}
+
+#signature {
+    font-style: italic;
+    text-align: right;
+    padding-right: 15px;
+    position: absolute;
+    bottom: -110px;
+    right: 130px;
+}
+
+#accountlink {
+    text-align: center;
+    font-size: 20px;
+    border-color: black;
+    border-width: 2px;
+    border-style: solid;
+    margin: auto;
+}
