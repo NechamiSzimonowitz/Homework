@@ -140,3 +140,9 @@ caption {
 tr :last-child {
     font-style: italic;
 }
+
+textarea {
+    height: 6em;
+    display: block;
+    width: 100%;
+}
