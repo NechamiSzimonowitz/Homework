@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>InterestingShape</title>
+</head>
+<style>
+    body {
+        display: grid;
+        grid-template-columns: repeat(16, 1fr);
+        grid-template-rows: repeat(40, 20px);
+    }
+
+    div {
+        height: 200px;
+        width: 60px;
+
+    }
+
+    #rect1 {
+        background-color: red;
+        grid-column-start: 6;
+        grid-row-start: span 8;
+
+
+    }
+
+    #rect2 {
+        background-color: maroon;
+        rotate: 90deg;
+        grid-column-start: 8;
+        grid-row-start: 4;
+    }
+
+    #rect3 {
+        background-color: green;
+        grid-column-start: 6;
+    }
+
+    #rect4 {
+        background-color: purple;
+        rotate: 90deg;
+        grid-row-start: 4;
+        grid-column-end: 5;
+
+    }
+</style>
+
+<body>
+    <div id="rect1"></div>
+    <div id="rect2"></div>
+    <div id="rect3"></div>
+    <div id="rect4"></div>
+</body>
+
+</html>
