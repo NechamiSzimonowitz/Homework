@@ -1,0 +1,357 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ESTUFF</title>
+    <style>
+        #capital {
+            text-transform: uppercase;
+        }
+
+        #italics {
+            font-style: italic;
+        }
+
+        .header {
+            background-color: black;
+            position: fixed;
+            top: 0;
+            right: 0;
+            left: 0;
+        }
+
+        .footer {
+            background-color: black;
+            position: fixed;
+            bottom: 0;
+            right: 0;
+            left: 0;
+            color: white;
+            height: 30px;
+
+        }
+
+        #indentedText {
+            margin-left: 7%;
+        }
+
+        ul {
+            margin-left: 7.5%;
+            padding-left: 0px;
+        }
+
+        li {
+            display: inline-block;
+            list-style-type: none;
+        }
+
+        a {
+            text-decoration: none;
+            color: white;
+            padding-right: 15px;
+        }
+
+        a:hover {
+            text-decoration: underline;
+            color: red;
+        }
+
+        #heading {
+            background-color: gainsboro;
+            margin-top: 50px;
+            text-align: center;
+            padding-top: 10px;
+            padding-bottom: 10px;
+            border-radius: 0px 0px 10px 10px;
+        }
+
+        .Grid-container {
+            display: grid;
+            grid-template-columns: 33% 33% 33%;
+            justify-content: center;
+            text-align: center;
+        }
+
+        .grid-item {
+            max-width: 95%;
+            max-height: auto;
+        }
+
+        #img1,
+        #img2 {
+            padding-right: 5px;
+            border-right: 2px gray solid;
+        }
+
+        #img1 {
+            grid-column-start: 1;
+            grid-column-end: 2;
+        }
+
+        #img2 {
+            grid-column-start: 2;
+            grid-column-end: 3;
+        }
+
+        #img3 {
+            grid-column-start: 3;
+            grid-column-end: 4;
+            border: none;
+        }
+
+        .afterimg {
+            text-align: justify;
+        }
+
+        form {
+            text-align: center;
+            background-color: gainsboro;
+            border-radius: 6px;
+            padding-top: 10px;
+            padding-bottom: 4px;
+        }
+
+        input {
+            border: 1px solid black;
+            border-radius: 4px;
+            box-shadow: 2px 2px black;
+
+        }
+
+        table {
+            border-collapse: collapse;
+            border-color: black;
+            min-width: max-content;
+            overflow-x: auto;
+
+        }
+
+        .table {
+            overflow-x: auto;
+        }
+
+        th {
+            font-weight: bold;
+        }
+
+        table,
+        th,
+        td {
+            border: 1px solid black;
+            padding: 5px;
+            text-align: right;
+        }
+
+        td:last-child {
+            color: red;
+        }
+
+        td:first-child {
+            font-weight: bold;
+        }
+
+        tr:nth-child(even) {
+            background-color: lightpink;
+        }
+
+        tr:hover {
+            background-color: lightblue;
+        }
+
+        @media screen and (max-width: 1000px) {
+            .formlabel {
+                display: block;
+            }
+
+            .Grid-container {
+                grid-template-columns: 100%;
+                grid-template-rows: 1fr 1fr 1fr;
+
+                #img1 {
+                    grid-row-start: 1;
+                    grid-row-end: 2;
+                }
+
+                #img2 {
+                    grid-row-start: 2;
+                    grid-row-end: 3;
+                }
+
+                #img3 {
+                    grid-row-start: 3;
+                    grid-row-end: 4;
+                }
+            }
+
+            #img1,
+            #img2,
+            #img3 {
+                border-right: none;
+                grid-column-start: 1;
+                grid-column-end: 2;
+                max-width: 100%;
+            }
+
+            .grid-item {
+                border-right: none;
+            }
+        }
+
+        body {
+            font-family: Arial, Helvetica, sans-serif;
+        }
+
+        #pagewrapper {
+            margin-left: 7%;
+            margin-right: 7%;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="header">
+        <ul>
+            <li><a href="#products">Products</a></li>
+            <li><a href="#Signup">Sign Up</a></li>
+            <li><a href="#Financials">Financials</a></li>
+            <li><a href="#Aboutus">About Us</a></li>
+        </ul>
+    </div>
+    <div class="footer">
+        <p id="indentedText">&copy;PCS 2023</p>
+    </div>
+    <div>
+        <div id="pagewrapper">
+            <div id="heading">
+                <h1 id="capital">Estuff</h1>
+                <h3 id="italics">A PCS Company</h3>
+            </div>
+            <h3 id="products">Products</h3>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nisi voluptate ratione reprehenderit atque,
+                error
+                rerum!</p>
+            <div class="Grid-container">
+                <div id="img1">
+                    <p>Computers</p><img src="images/macworld.jpg" alt="macworld" class=grid-item>
+                    <p class="afterimg">Lorem ipsum dolor sit amet consectetur adipisicing elit. Delectus et numquam
+                        adipisci. Excepturi,
+                        tempore aperiam?</p>
+                </div>
+                <div id="img2">
+                    <p>Choir</p><video controls poster="images/shira.png" class=grid-item>
+                        <source src="images/videoSong.mp4" type="video/mp4">
+                    </video>
+                    <p class="afterimg">Lorem ipsum dolor sit amet consectetur adipisicing elit. Delectus et numquam
+                        adipisci. Excepturi,
+                        tempore aperiam?</p>
+                </div>
+                <div id="img3">
+                    <p>Candy</p><img src="images/candy.png" alt="candy" class=grid-item>
+                    <p class="afterimg">Lorem ipsum dolor sit amet consectetur adipisicing elit. Delectus et numquam
+                        adipisci. Excepturi,
+                        tempore aperiam?</p>
+                </div>
+            </div>
+            <form action="POST" id="Signup">
+                <p>Sign Me up!</p>
+                <label class="formlabel">
+                    Name: <input type="char" placeholder="Your Name" required>
+                </label>
+                <label class="formlabel">
+                    Email: <input type="email" minlength="6" placeholder="Your Email" required>
+                </label>
+                <input id="submitbutton" type="submit" value="Sign me up!">
+            </form>
+            <h3 id="Financials">Financials</h3>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nisi voluptate ratione reprehenderit atque,
+                error
+                rerum!</p>
+            <div class="table">
+                <table align="center">
+                    <caption>Profits-By quarter</caption>
+                    <thead>
+                        <tr>
+                            <th>Year</th>
+                            <th>1st quarter profits</th>
+                            <th>2nd quarter profits</th>
+                            <th>3rd quarter profits</th>
+                            <th>4th quarter profits</th>
+                            <th>Total
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td>2012</td>
+                            <td>575468</td>
+                            <td>548795</td>
+                            <td>584756</td>
+                            <td>487855</td>
+                            <td>45552114</td>
+                        </tr>
+                        <tr>
+                            <td>2013</td>
+                            <td>155468</td>
+                            <td>544795</td>
+                            <td>584756</td>
+                            <td>481425</td>
+                            <td>45552114</td>
+                        </tr>
+                        <tr>
+                            <td>2014</td>
+                            <td>14568</td>
+                            <td>548795</td>
+                            <td>584756</td>
+                            <td>487855</td>
+                            <td>45552114</td>
+                        </tr>
+                        <tr>
+                            <td>2015</td>
+                            <td>155468</td>
+                            <td>548595</td>
+                            <td>588756</td>
+                            <td>487566</td>
+                            <td>45552114</td>
+                        </tr>
+                        <tr>
+                            <td colspan="5">Total</td>
+                            <td>45878987545</td>
+                        </tr>
+                    </tbody>
+
+                </table>
+            </div>
+            <h3 id="Aboutus">About Us</h3>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsa, nisi laboriosam dicta eum harum pariatur
+                autem
+                eaque exercitationem atque sapiente inventore enim reprehenderit cumque dolor, molestias odio quo,
+                quaerat
+                asperiores. Beatae sed ipsam ab inventore et molestias, repellat doloribus vel accusantium, nisi, soluta
+                porro officia. Consectetur consequatur nemo voluptatem iste aut facilis quod ad sint rerum mollitia
+                suscipit
+                cumque necessitatibus quibusdam possimus esse, alias officia quia voluptate unde reiciendis excepturi
+                totam
+                tenetur. Animi magnam sapiente omnis? Magni repellendus accusantium, voluptatum delectus beatae quas
+                praesentium illo mollitia nobis fugiat quasi eaque tempora, odit id quod quos, commodi non. Soluta
+                facilis
+                totam quidem consequuntur aut cum libero atque aspernatur ipsa in? Quod tempore, aspernatur porro
+                architecto
+                animi tempora eaque ab delectus beatae at distinctio nihil eius repellendus perferendis saepe eligendi
+                obcaecati dolores ullam id? Aut quam voluptates veniam officiis maxime ratione, accusamus suscipit!
+                Nemo,
+                molestias aliquam placeat neque architecto molestiae voluptates dignissimos dolore maxime, dolor eius
+                delectus totam recusandae voluptatem hic sit labore tenetur. Quia minus qui asperiores quaerat nostrum
+                inventore tenetur rerum laborum alias impedit sequi, consequatur repudiandae optio ea quis magni
+                recusandae
+                incidunt commodi sint aut delectus nobis cumque corrupti. Pariatur delectus quas tempore porro, aperiam
+                consectetur repellendus vero dolore sit obcaecati quia dolores neque nisi ipsum blanditiis. Aut vitae,
+                consequatur assumenda maiores nesciunt quod commodi ut neque nobis? Impedit voluptates ipsa maiores
+                doloribus totam repudiandae et ad aliquam est aut, saepe placeat vitae unde minus fuga sit, voluptas
+                minima.
+                Eligendi, corporis exercitationem. Cupiditate voluptatum deserunt nulla dolores labore nemo.</p>
+        </div>
+    </div>
+</body>
+
+</html>
